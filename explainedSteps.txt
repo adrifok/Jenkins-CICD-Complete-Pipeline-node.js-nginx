@@ -1,0 +1,22 @@
+Server AWS ec2
+associate elastic ip on ec2
+firewall enable (ssh (22), 8080, 3000, http, https(443))
+Ubuntu OS
+Jenkins installation on ec2
+command netstat -tuln -p
+nodeJs(18 version) and npm installation
+ec2 firewall config of port 3000 for nodejs
+GitHub integration with Jenkins
+build pipeline
+ngnix installation on ec2
+copy directory from workspace to /var/www/nodejs-deploy
+sudo chown -R jenkins:jenkins /var/www/nodejs-deploy/
+
+sudo chmod -R 700 /var/www/ (grant 700 permission)
+start public ip address of ec2 in browser (nginx will appear)
+run npm in background in the shell (nohup npm start)
+refresh web page nginx
+create auto deployment in GitHub (webhooks)
+
+
+
