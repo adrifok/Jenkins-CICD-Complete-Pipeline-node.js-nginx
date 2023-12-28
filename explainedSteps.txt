@@ -17,6 +17,10 @@ start public ip address of ec2 in browser (nginx will appear)
 run npm in background in the shell (nohup npm start)
 refresh web page nginx
 create auto deployment in GitHub (webhooks)
-
+execute shell on jenkins configure:
+cp -r  * /var/www/nodejs-deploy
+cd /var/www/nodejs-deploy
+pkill -f "index.js" && echo "Node.js processes killed succesfully"
+nohup npm start &
 
 
